@@ -1,0 +1,103 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<CartItem>
+
+@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container">
+    <h2 class="text-danger">🛒 Giỏ hàng của bạn</h2>
+    @if (Model.Count == 0)
+    {
+        <p class="text-muted">Giỏ hàng trống.</p>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead class="table-danger">
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td><img src="@item.ImageUrl" width="50" /></td>
+                        <td>@item.Price.ToString("N0") đ</td>
+                        <td>
+                            <input type="number" class="form-control quantity"
+                                   data-id="@item.ProductId" value="@item.Quantity" min="1" />
+                        </td>
+                        <td class="subtotal">@(@item.Price * item.Quantity) đ</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm remove-item" data-id="@item.ProductId">❌ Xóa</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h4 class="text-end text-danger">Tổng tiền: <span id="total">@Model.Sum(i => i.Price * i.Quantity) đ</span></h4>
+
+        <hr>
+        <h4>Thông tin người mua</h4>
+        <form method="post" action="/Cart/Checkout">
+            <div class="mb-3">
+                <label class="form-label">Họ tên</label>
+                <input type="text" class="form-control" name="FullName" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Số điện thoại</label>
+                <input type="text" class="form-control" name="Phone" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Địa chỉ giao hàng</label>
+                <textarea class="form-control" name="Address" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">🛍️ Đặt hàng</button>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".quantity").on("change", function () {
+                var productId = $(this).data("id");
+                var quantity = $(this).val();
+
+                $.ajax({
+                    url: "/Cart/UpdateCart",
+                    type: "POST",
+                    data: { id: productId, quantity: quantity },
+                    success: function (response) {
+                        location.reload();
+                    }
+                });
+            });
+
+            $(".remove-item").click(function () {
+                var productId = $(this).data("id");
+
+                $.ajax({
+                    url: "/Cart/RemoveFromCart",
+                    type: "POST",
+                    data: { id: productId },
+                    success: function (response) {
+                        location.reload();
+                    }
+                });
+            });
+        });
+    </script>
+}
+

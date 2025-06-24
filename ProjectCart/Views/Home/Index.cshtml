@@ -1,0 +1,106 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container">
+    <h2 class="text-danger">Danh mục sản phẩm mới ></h2>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">@product.Name</h6>
+                        <p class="text-danger fw-bold">@product.Price.ToString("N0") đ</p>
+                        <button class="btn btn-outline-danger btn-sm add-to-cart"
+                                data-id="@product.Id"
+                                data-name="@product.Name"
+                                data-image="@product.ImageUrl"
+                                data-price="@product.Price">
+                            🛒 Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="text-danger">Danh mục sản phẩm hot ></h2>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">@product.Name</h6>
+                        <p class="text-danger fw-bold">@product.Price.ToString("N0") đ</p>
+                        <button class="btn btn-outline-danger btn-sm add-to-cart"
+                                data-id="@product.Id"
+                                data-name="@product.Name"
+                                data-image="@product.ImageUrl"
+                                data-price="@product.Price">
+                            🛒 Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="text-danger">Danh mục sản phẩm bán chạy ></h2>
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name">
+                    <div class="card-body text-center">
+                        <h6 class="card-title">@product.Name</h6>
+                        <p class="text-danger fw-bold">@product.Price.ToString("N0") đ</p>
+                        <button class="btn btn-outline-danger btn-sm add-to-cart"
+                                data-id="@product.Id"
+                                data-name="@product.Name"
+                                data-image="@product.ImageUrl"
+                                data-price="@product.Price">
+                            🛒 Thêm vào giỏ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".add-to-cart").click(function () {
+                var button = $(this);
+                var productId = button.data("id");
+                var name = button.data("name");
+                var imageUrl = button.data("image");
+                var price = button.data("price");
+
+                $.ajax({
+                    url: "/Cart/AddToCart",
+                    type: "POST",
+                    data: { id: productId, name: name, imageUrl: imageUrl, price: price },
+                    success: function (response) {
+                        if (response.success) {
+                            alert(response.message);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

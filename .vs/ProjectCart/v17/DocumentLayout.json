@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\Visual Studio 2022\\ProjectCart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\wwwroot\\css\\register.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\wwwroot\\css\\register.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|d:\\code\\visual studio 2022\\projectcart\\projectcart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4356B10E-0837-47B2-8CE4-0D3AADC24148}|ProjectCart\\ProjectCart.csproj|solutionrelative:projectcart\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "ProjectCart\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "ProjectCart\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-17T14:51:13.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.css",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "ProjectCart\\wwwroot\\css\\register.css",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "ProjectCart\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-17T14:50:13.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "ProjectCart\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "ProjectCart\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T14:47:55.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "ProjectCart\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "ProjectCart\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T14:47:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProjectCart\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProjectCart\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-17T14:46:36.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ProjectCart\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:31:53.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProjectCart\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:52:58.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ProjectCart\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:52:54.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectCart\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjectCart\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T14:23:44.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjectCart\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:02:12.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Models\\Product.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Models\\Product.cs",
+              "RelativeToolTip": "ProjectCart\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:07:10.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectCart\\Program.cs",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\Program.cs",
+              "RelativeToolTip": "ProjectCart\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:53:06.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectCart\\appsettings.json",
+              "ToolTip": "D:\\Code\\Visual Studio 2022\\ProjectCart\\ProjectCart\\appsettings.json",
+              "RelativeToolTip": "ProjectCart\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T13:50:06.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
